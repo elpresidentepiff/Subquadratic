@@ -547,3 +547,83 @@ But the investment thesis must not rely on the claim that Swift is old and there
 - [Standard Chartered — First live tokenised-deposit transaction on Swift's ledger with HSBC, 19 August 2026](https://www.sc.com/En/press-release/standard-chartered-and-hsbc-execute-first-live-tokenised-deposit-transaction-on-swifts-blockchain-based-ledger/): primary bank announcement of a live interbank transaction and the ledger's orchestration role.
 - [Quant — Fusion Rollup mainnet announcement](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/): company description of Fusion's multi-ledger architecture and initial network connectivity.
 - [The Clearing House — Tokenized Deposits: Connecting Banks for the Future of Digital Payments, 24 August 2026](https://www.theclearinghouse.org/payment-systems/Articles/2026/08/Components/Tokenized-Deposits-Connecting-Banks-for-the-Future-of-Digital-Payments): primary explanation of the bank-led initiative and its intended connection to existing payment rails.
+
+
+---
+
+## 18. Phase IV — preliminary on-chain supply and holder-concentration audit
+
+**Research update:** 20 November 2026  
+**Evidence class:** public Ethereum explorer data plus independent third-party event-index analysis. This is a preliminary audit, not a complete forensic wallet attribution.
+
+### A. Critical distinction: reported supply, contract balance and circulating float
+
+A fresh QNT supply review identifies a material distinction that should be explicit in every future model:
+
+- The QNT contract's `totalSupply()` returns **45,467,000**, but the verified contract code hardcodes this value rather than updating it to reflect tokens actually minted. It is not a reliable measure of issued or circulating QNT.
+- The QNT token contract address itself holds approximately **9,550,897 QNT** in its own balance (20 November 2026 snapshot). An independent review of the verified source code concludes that no function in the contract can transfer this balance out. This is consistent with the 2018 unsold-token burn, although the current contract balance is about 5,000 QNT higher than the historical burn figure; the explanation for the difference has not been independently established.
+- The same independent review counted approximately **24,431,259 QNT** across 608 mint events, all on 25 June 2018, with no later mint events found in its indexed history. Subtracting the contract-held balance leaves approximately **14,880,362 QNT**, which is about **267,869 QNT higher** than the 14,612,493 reported total supply used in the Blockworks filing.
+- Blockworks' filing reports **14,612,493 total** and **14,544,176 circulating**. CoinGecko's 20 November 2026 snapshot reports approximately **14,556,178 circulating**.
+
+**Committee treatment:** retain 14,612,493 as the reported-supply denominator for comparability with the filing, and 14,544,176 as the dated filing's circulating denominator, but flag the approximately 267.9k difference between the third-party mint-event reconstruction and reported total as unresolved. Do not present the on-chain event reconstruction as an issuer-confirmed supply figure. The 9.55m contract balance should be treated as effectively inaccessible on the available code reading, not as freely tradable float. A specialist smart-contract audit would be required before calling the balance irreversibly burned as a formal legal/technical conclusion.
+
+### B. Preliminary holder concentration
+
+VertData's 20 November 2026 supply dashboard reports the following top non-contract wallets. Its rich-list page says it indexes ERC-20 Transfer events and cross-checks selected balances against `balanceOf()`; it also cautions that wallet addresses are not equivalent to beneficial owners.
+
+| Rank | Address | QNT balance | % of reported 14.612m supply | Label status |
+|---:|---|---:|---:|---|
+| 1 | `0x826678ad6b1aaa5e1f20e079333d9b66ab22d78b` | 600,000 | 4.11% | Unlabelled |
+| 2 | `0x48e9af81fb93d144ad4683fcf219974c8304a170` | 599,999 | 4.11% | Unlabelled |
+| 3 | `0x7513ae7e87290094b17b35e26cdb537170634c57` | 454,798 | 3.11% | Unlabelled |
+| 4 | `0x5a52e9…70efcb` | 307,291 | 2.10% | Unlabelled |
+| 5 | `0xf3516f…69e930` | 281,278 | 1.92% | Unlabelled |
+| 6 | `0x33d132…36ffdd` | 280,798 | 1.92% | Unlabelled |
+| 7 | `0xaf99cc…43f4e1` | 280,401 | 1.92% | Unlabelled |
+| 8 | `0x9ed7f4…1494fe` | 265,089 | 1.81% | Unlabelled |
+| 9 | `0x94e11e…823e38` | 255,675 | 1.75% | Unlabelled |
+| 10 | `0x8a6ec5…72a516` | 250,402 | 1.71% | Unlabelled |
+
+The top ten non-contract wallets total approximately **3.576 million QNT**, or **24.5%** of the 14.612m reported-supply denominator. The top three alone hold approximately **1.655 million QNT**, or **11.3%**. These are address-level concentrations, not proof of three independent owners. The first two balances being almost exactly 600,000 QNT each merits transaction-history and common-control analysis; it does not, by itself, establish common ownership.
+
+### C. Exchange-labelled holdings — a floor, not a float estimate
+
+The same dashboard identifies **1,426,636 QNT** across 11 verified exchange-labelled addresses within its top-50 list, equal to approximately **9.76%** of reported supply. Examples include Uphold, Binance, Crypto.com, Kraken, eToro, CoinSpot, Gate and other exchange-labelled addresses.
+
+This is only a **labelled-address lower bound**. It is not total exchange custody, not net exchange reserves, and not an estimate of tokens immediately available for sale. Some exchange wallets may hold customer assets; many exchange addresses may be unlabelled; exchange hot/cold wallet movements can be internal transfers. No net exchange-flow or effective-float conclusion is justified from this snapshot alone.
+
+### D. What this preliminary audit does and does not establish
+
+**Established to a reasonable preliminary standard:**
+- The 45.467m contract return is a hardcoded constant and should not be used as circulating supply.
+- Approximately 9.55m QNT sits at the token contract address; the independent source-code review finds no apparent transfer path for that balance.
+- The top non-contract addresses are materially concentrated: the top ten account for roughly 24.5% of the reported supply denominator in the third-party tracker.
+- Verified exchange-labelled addresses in the top 50 account for at least approximately 9.76% of reported supply.
+
+**Not established:**
+- Beneficial ownership of the large unlabelled wallets.
+- Whether the two 600k wallets are controlled by the same party.
+- The full set of exchange, custodian, bridge, treasury, team or market-maker addresses.
+- Actual net exchange reserves or freely sellable float.
+- A complete reconciliation between mint-event balances, contract-held tokens and the issuer/filing supply figure.
+- Current spot order-book depth, slippage or market impact.
+
+### E. Next forensic steps
+
+1. Pull complete transaction histories for the three largest unlabelled wallets and the Quant Team Wallet 1 address; identify funding sources, counterparties, recurring transfers and common-control signals.
+2. Reconcile the 608 historical mint events, the contract-address balance and the reported 14.612493m total against the original 2018 burn transaction and all subsequent transfers.
+3. Expand labelled exchange/custodian coverage beyond the top 50; separate exchange customer custody from identifiable treasury and operational wallets.
+4. Build a dated exchange-reserve series rather than relying on a single snapshot.
+5. Query spot order books on the principal venues and calculate executable depth and slippage at realistic ticket sizes.
+6. Obtain an independent smart-contract review of the token contract's mint authority and the contract-address balance's irreversibility.
+
+### Phase IV source register
+
+- [VertData — QNT supply dashboard, 20 November 2026](https://vertdata.com/qnt-supply): supply snapshot, token-contract balance, top-50 addresses and verified exchange-label lower bound.
+- [VertData — QNT rich list and holder tiers](https://vertdata.com/qnt-rich-list): event-index methodology, block-height snapshot, top-holder balances and wallet-versus-beneficial-owner caveat.
+- [VertData — Why Etherscan shows 45,467,000 QNT](https://vertdata.com/guides/why-qnt-shows-45-million-on-etherscan): independent reading of verified contract code, mint-event reconstruction and contract-address balance. Its approximately 267.9k supply-reconciliation gap remains unresolved.
+- [Blockscout — QNT token holders](https://eth.blockscout.com/token/0x4a220e6096b25eadb88358cb44068a3248254675?tab=holders): independent explorer display of token-contract and labelled holder balances.
+- [Etherscan — verified QNT ERC-20 contract](https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675): primary contract and transfer-history entry point.
+- [Blockworks — Quant Token Transparency Filing](https://blockworks.com/token-transparency/filing/quant): issuer disclosure consolidation and reported supply figures.
+
+*Evidence boundary: this phase reviewed public explorer snapshots and a third-party event-index reconstruction. We have not yet independently replayed the full event log ourselves, completed beneficial-owner attribution, or measured executable order-book depth. Those tasks remain open.*
