@@ -1,0 +1,183 @@
+# Quant (QNT) — Sub-Quadratic Investment Research
+**Research date:** 20 November 2026  
+**Asset:** Quant Network (QNT)  
+**Classification:** Institutional blockchain interoperability / programmable-money infrastructure  
+**Committee posture:** Positive strategic thesis; valuation and token-value-capture work required before position sizing.
+
+---
+
+## Executive investment view
+
+Quant is positioned in a part of the digital-asset market that matters to institutional adoption: interoperability between regulated financial institutions, existing payment systems, and multiple public or private ledgers. The investment case is not that one blockchain wins. It is that banks, payment networks, asset managers and corporates will operate across several ledgers and need secure orchestration, settlement and compliance between them.
+
+Quant's product stack addresses that problem through Overledger and, more recently, the Fusion Rollup. The most important development is the move from an interoperability proposition into an institutional execution environment: Quant announced Fusion Rollup mainnet availability in 2026, initially connecting 74 networks. In September 2026, The Clearing House selected Quant technology for its On-Chain Money Initiative, intended to support clearing and settlement of tokenised deposits and connect with existing US payment rails, including RTP and CHIPS.
+
+**Our central thesis:** as money and financial assets become programmable and tokenised, the infrastructure that connects fragmented ledgers to regulated financial markets can become strategically important. Quant is a credible company-level contender in that infrastructure layer. QNT is the associated digital asset, but its investment case must be underwritten separately from the quality of the company and its partnerships.
+
+## 1. The market structure: why interoperability matters
+
+Financial markets were built on systems designed for different eras, institutions and jurisdictions. Cross-border payments, securities settlement, liquidity management and reconciliation still involve multiple intermediaries, operating windows, messaging standards and account structures.
+
+The transition is not simply from “old rails” to “blockchain rails”. The more realistic institutional outcome is a hybrid financial system:
+- Commercial-bank deposits represented as tokenised liabilities.
+- Regulated stablecoins used for payment and settlement.
+- Securities and funds issued or represented on distributed ledgers.
+- Existing payment networks retained for reach, resilience, compliance and final settlement.
+- Interoperability layers coordinating activity across these environments.
+
+The strategic bottleneck is therefore connectivity and execution across systems, not merely transaction throughput on one chain.
+
+Swift's own programme confirms that the incumbent network is adapting rather than standing still. In July 2026, Swift said 17 banks across six continents were preparing live tokenised-deposit payment pilots on its blockchain-based ledger. This validates the direction of travel, while also establishing Swift as a formidable competitor and potential ecosystem participant.
+
+## 2. Quant's proposition
+
+### Overledger
+
+Overledger is Quant's enterprise interoperability technology. It is designed to connect existing systems and distributed ledgers through a common software interface, reducing the need for institutions to build and maintain bespoke integrations for every network.
+
+The value proposition is practical: institutions can connect systems, coordinate workflows and interact with multiple ledgers without making a single blockchain the centre of their entire architecture.
+
+### Fusion Rollup
+
+Quant announced that Fusion Rollup went live on mainnet in 2026, initially connecting 74 blockchain networks. Quant describes it as a multi-ledger execution environment for institutions, with cross-network asset movement, transaction orchestration and compliance controls.
+
+This matters because the product ambition moves beyond translating messages between networks. It seeks to coordinate activity and liquidity across them. If institutions adopt it for production workflows, Quant could occupy a more embedded position in financial-market infrastructure.
+
+**Investment significance:** the strongest evidence to monitor is not the number of networks listed as connected. It is the number of live institutional workflows, recurring transactions, assets settled, paying customers and fees generated.
+
+## 3. Institutional evidence and strategic relationships
+
+### The Clearing House — September 2026
+
+The Clearing House announced that it selected Quant to provide interoperability, orchestration and transaction-management technology for its On-Chain Money Initiative. The initiative is intended to support clearing and settlement of tokenised deposit transactions and connect to existing payment infrastructure, including RTP and CHIPS. The Clearing House said the network is expected to become available to participating institutions in the first half of 2027.
+
+This is a significant institutional validation point. The Clearing House operates major US payment systems and says its networks clear and settle more than $2 trillion each day. The selection is evidence of a role in a serious banking initiative; it is not yet proof of production-scale adoption or QNT token demand.
+
+### Project Rosalind — BIS and Bank of England
+
+Quant announced that it participated in Project Rosalind as part of the vendor team. The project was led by the Bank for International Settlements Innovation Hub's London Centre with the Bank of England. It explored how APIs could support a retail CBDC system and how central-bank infrastructure could interact with private-sector service providers.
+
+The BIS describes Project Rosalind as a concluded experiment, not a commercial deployment or an endorsement of QNT. Its relevance is that Quant gained experience in a central-bank-led exploration of API-based CBDC infrastructure and public-private interoperability.
+
+### Japan — Dentsu Soken
+
+In January 2026, Quant announced a partnership with Dentsu Soken to support Japanese financial institutions exploring tokenised deposits, institutional stablecoins and programmable settlement infrastructure. Dentsu Soken brings experience integrating mission-critical financial and payment systems.
+
+The strategic relevance is geographic and operational: institutional digital-money infrastructure is not a single-market opportunity.
+
+### Partner and ecosystem references
+
+Quant's published partner material includes UST, LACChain, SIA/Nexi and Oracle-related ecosystem engagement. Each relationship should be assessed by its precise contractual status, scope, production deployment and revenue contribution. A partner logo or announcement is not equivalent to a paying production customer.
+
+## 4. Leadership
+
+Quant was founded by Gilbert Verdian, who serves as founder and CEO. Quant's published biography describes more than 20 years of cybersecurity experience and senior technology/security roles across public and private-sector organisations, including Mastercard/Vocalink, HSBC, BP, EY and government departments.
+
+Verdian also established the ISO/TC 307 blockchain standards initiative in 2015 and is identified by Quant as convenor of its interoperability working group. This background is strategically relevant: institutional interoperability requires standards, security, governance and integration expertise as much as it requires blockchain engineering.
+
+## 5. QNT: token function and value capture
+
+QNT is not equity in Quant Network Ltd. It does not represent company shares, dividends, voting rights or a claim on company revenue.
+
+Published product and disclosure material identifies several token functions:
+1. Overledger licence and platform access payments, where applicable.
+2. Fusion Rollup gas and execution fees.
+3. QNT staking by trusted-node operators participating in the Fusion framework.
+
+Quant's product documentation and third-party disclosures indicate that platform fees may also be paid in fiat currency or through QNT subscription arrangements. This distinction is material. Adoption of Quant software does not automatically translate one-for-one into open-market QNT purchases.
+
+The token thesis strengthens if:
+- Production customers must acquire or lock QNT to access meaningful services.
+- Fusion activity creates recurring QNT-denominated gas demand.
+- Trusted-node participation requires meaningful QNT stake.
+- A growing share of platform economics is structurally routed through QNT.
+- Circulating supply available to the market tightens while usage expands.
+
+The thesis weakens if customers can predominantly pay in fiat without creating durable QNT demand, or if network usage grows without meaningful token velocity, lock-up or fee capture.
+
+## 6. Supply architecture
+
+Quant's original token supply is widely reported as approximately 14.612 million QNT, following the 2018 burn of unsold tokens. Third-party disclosures cite approximately 14.544 million circulating at the time of their July 2026 filing, with a small residual balance held by the company.
+
+The fixed and relatively small supply is a potentially favourable structural feature if real token demand expands. Scarcity alone, however, is not an investment thesis. The key variable is the relationship between token-required activity and the amount of QNT available to meet that activity.
+
+For ongoing monitoring, use on-chain contract data and current disclosures rather than stale aggregator figures. Record the observation date whenever supply metrics are quoted.
+
+## 7. Competitive landscape
+
+Quant is not operating in an empty market.
+
+- **Swift:** has announced its own blockchain-based shared ledger and interoperability work with global banks. Its distribution, standards and institutional relationships make it a major incumbent competitor.
+- **Hyperledger / enterprise DLT stacks:** provide institutions with permissioned infrastructure and integration options.
+- **Chainlink and other interoperability providers:** compete in cross-chain messaging, data and institutional connectivity.
+- **Bank-built and consortium networks:** may choose proprietary or standards-based architectures rather than an external interoperability layer.
+
+Quant's differentiation is its focus on orchestration across multiple ledgers and its positioning around regulated institutions. The competitive test is whether institutions select Quant for live, recurring workflows and whether those deployments create durable economics for QNT.
+
+## 8. Regulatory and policy backdrop
+
+The US GENIUS Act was signed into law on 18 July 2025. It establishes a federal framework for permitted payment stablecoin issuers, including reserve and supervisory requirements. This is important to the wider thesis because regulated payment stablecoins can become part of institutional settlement infrastructure.
+
+The Act does not specifically endorse Quant or QNT. Its relevance is indirect: it helps define the regulatory perimeter for one category of tokenised money that interoperability infrastructure may need to support.
+
+## 9. Investment thesis — why Sub-Quadratic is researching QNT
+
+The positive case rests on five pillars:
+
+1. **A structural market need:** financial institutions are moving toward tokenised deposits, stablecoins and digital securities, creating demand for connectivity between fragmented systems.
+2. **An infrastructure position:** Quant is building middleware and execution technology intended to connect regulated institutions to multiple ledgers.
+3. **Institutional validation:** Project Rosalind, the Dentsu Soken partnership and The Clearing House selection provide evidence of engagement in serious institutional programmes.
+4. **Product progression:** Fusion Rollup's mainnet launch represents a step from interoperability messaging toward multi-ledger execution and asset coordination.
+5. **Constrained token supply with expanding potential utility:** QNT has a relatively small fixed supply and documented product functions. If those functions become essential to production usage, token demand could become more closely linked to network activity.
+
+**Our conviction is in the infrastructure direction first, and in QNT token value capture second.** We want evidence that the token is economically necessary to the network's growth, not merely associated with a successful software company.
+
+## 10. Investment committee monitoring dashboard
+
+| Metric | What we want to establish |
+|---|---|
+| Production customers | Named institutions with live deployments |
+| Recurring revenue | Contracted and recurring Quant platform revenue, where disclosed |
+| Fusion activity | Transactions, active applications and value settled |
+| Network economics | QNT gas fees, staking participation and fee distribution |
+| Token demand | Required QNT purchases, lock-ups and net flows |
+| Customer payment choice | Share of platform fees paid in QNT versus fiat |
+| Institutional pipeline | Announced pilots progressing to production |
+| Competitive position | Wins, renewals and integrations versus Swift and alternatives |
+
+## 11. What would change our view
+
+We would increase conviction if Quant demonstrates repeatable production deployments, meaningful transaction throughput, expanding institutional customer use and measurable QNT-denominated demand.
+
+We would reduce conviction if institutional announcements fail to progress into production, if customers can avoid QNT for nearly all meaningful activity, if Fusion usage remains immaterial, or if competitors capture the same workflows with stronger distribution and economics.
+
+## 12. Conclusion
+
+The financial system is not going to become one blockchain. It is becoming a network of banks, payment systems, tokenised deposits, stablecoins, securities ledgers and regulated digital-asset venues. Those systems need to communicate, coordinate and settle with one another.
+
+Quant is positioning itself in that connective tissue. Its institutional relationships, Overledger platform and Fusion Rollup make it a serious infrastructure name to investigate. The Clearing House selection is an especially important proof point to follow through to production in 2027.
+
+For Sub-Quadratic, QNT merits a place on the institutional digital-asset research list because it offers exposure to the infrastructure layer of financial modernisation rather than a single consumer application or speculative blockchain narrative.
+
+**The closing question is not whether the world will digitise money. It is which infrastructure providers become indispensable when it does — and whether QNT captures a material share of that value.**
+
+---
+
+## Primary and supporting sources
+
+1. [The Clearing House — Quant selected for the On-Chain Money Initiative, 24 September 2026](https://www.theclearinghouse.org/payment-systems/Articles/2026/09/The-Clearing-House-Partners-with-Quant-to-Advance-the--On-Chain-Money-Initiative)
+2. [Quant — Fusion Rollup mainnet announcement](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/)
+3. [BIS — Project Rosalind](https://www.bis.org/project/rosalind)
+4. [Quant — Project Rosalind participation](https://quant.network/press-releases/quant-collaborates-with-bank-for-international-settlements-and-bank-of-england-on-project-rosalind-as-technology-vendor/)
+5. [Quant — Dentsu Soken partnership, 14 January 2026](https://quant.network/press-releases/quant-and-dentsu-soken-partner-to-support-japans-adoption-of-tokenised-deposits/)
+6. [Swift — Blockchain ledger ready for use; 17 banks preparing pilots, 9 July 2026](https://www.swift.com/about-us/media-centre/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure)
+7. [Swift — Shared ledger progresses to MVP implementation, 30 March 2026](https://www.swift.com/insights/news/swifts-blockchain-based-shared-ledger-progresses-mvp-implementation)
+8. [Quant — Gilbert Verdian biography](https://quant.network/people/gilbert-verdian/)
+9. [Blockworks — Quant Network disclosures and token functions](https://app.blockworks.com/projects/quant-network-2/disclosures)
+10. [Kraken — What is Quant (QNT)? Updated 19 October 2026](https://www.kraken.com/gb/learn/what-is-quant-qnt)
+11. [US Office of the Comptroller of the Currency — GENIUS Act](https://www.occ.gov/topics/charters-and-licensing/genius-act/index-genius-act.html)
+12. [US Public Law 119-27 — GENIUS Act statutory text](https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm)
+
+---
+
+*Prepared for Sub-Quadratic internal investment research. Facts, company announcements, third-party disclosures and investment interpretation are deliberately distinguished. Update this memorandum as production, token-economic and regulatory evidence changes.*
