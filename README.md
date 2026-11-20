@@ -61,3 +61,12 @@ Open work before an entry decision:
 Completed public-disclosure review covering fixed supply, circulating-supply reconciliation, fiat-vs-QNT subscription payment choice, Fusion product claims, token value-capture gaps, current market-cap/FDV/volume snapshot, scenario sensitivity and falsification criteria. See Sections 15–16 of the QNT memorandum.
 
 **Not yet independently completed:** full ERC-20 event-history extraction, major-wallet labelling, live exchange order-book depth/slippage analysis, and direct verification of Fusion gas/staking contract mechanics. These remain explicit diligence tasks, not assumed facts.
+
+
+### QNT Phase III — financial-system architecture and competitive positioning
+
+Added a strategic analysis of the emerging tokenised financial system: tokenised deposits, regulated stablecoins, tokenised securities, public and permissioned ledgers, and the interoperability/orchestration layer between them. The note compares Quant's role in The Clearing House On-Chain Money Initiative with Swift's blockchain-based ledger, including Swift's 17-bank pilot programme and the first live HSBC–Standard Chartered transaction announced in August 2026.
+
+**Key conclusion:** Swift is modernising and cannot be treated as a dying incumbent. Quant's opportunity is to become a differentiated connective/execution layer in a multi-network financial system, potentially alongside established payment rails. The Clearing House selection is a significant institutional proof point, but production deployment, volumes, commercial economics and QNT value capture remain to be proven.
+
+See Section 17 of the QNT memorandum. Next diligence remains direct on-chain holder/event analysis, Fusion fee and staking verification, and market-depth measurement.
