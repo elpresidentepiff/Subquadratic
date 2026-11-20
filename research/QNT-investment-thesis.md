@@ -181,3 +181,66 @@ For Sub-Quadratic, QNT merits a place on the institutional digital-asset researc
 ---
 
 *Prepared for Sub-Quadratic internal investment research. Facts, company announcements, third-party disclosures and investment interpretation are deliberately distinguished. Update this memorandum as production, token-economic and regulatory evidence changes.*
+
+
+---
+
+## 13. Market-capitalisation, supply and price framework
+**Market snapshot:** 20 November 2026 (USD; live aggregator snapshots, not an execution quote).
+
+CoinGecko reported QNT at approximately **$145.21**, circulating supply **14.556 million**, market capitalisation **$2.114 billion**, and fully diluted valuation **$2.122 billion**. The reported maximum supply is **14.612 million**. On that dataset, nearly all reported maximum supply is already circulating, so the conventional circulating-market-cap versus FDV gap is small.
+
+There is a material data-quality issue: CoinMarketCap displayed a materially lower circulating-supply figure (approximately 12.07 million) and a different total/max-supply figure in its 20 November snapshot. CoinDesk and CoinGecko showed figures closer to 14.6–14.8 million. Sub-Quadratic will not silently blend these datasets. For this memorandum, the CoinGecko snapshot is the working reference, with the discrepancy flagged for primary-contract and issuer reconciliation before any trade-size decision.
+
+### Working valuation sensitivity
+
+Using 14.556 million QNT as the working circulating-supply denominator:
+
+| Implied market capitalisation | Implied QNT price |
+|---:|---:|
+| $1.0bn | ~$68.70 |
+| $2.5bn | ~$171.75 |
+| $5.0bn | ~$343.50 |
+| $10.0bn | ~$687.00 |
+| $20.0bn | ~$1,374.00 |
+
+These are arithmetic sensitivities, not forecasts, price targets or assigned probabilities. The model assumes the circulating supply remains constant. Actual price formation also depends on available float, liquidity, exchange depth, holder behaviour, derivatives positioning and marginal demand. Market capitalisation is price multiplied by supply; it is not the amount of cash that must enter the asset.
+
+### What the sensitivity tells the committee
+
+At the working snapshot, QNT is a roughly $2.1bn asset, not a low-cap token. A move from approximately $2.1bn to $5bn market capitalisation would imply roughly 2.4 times the price under a constant-supply assumption. A move to $10bn would imply roughly 4.7 times. The investment question is whether institutional adoption, actual token utility and market access can support those valuations relative to competing infrastructure assets.
+
+### Low-cap valuation discipline — applied across the Sub-Quadratic universe
+
+Market capitalisation is a first-order input to price analysis, not a standalone buy signal. For every smaller-cap asset, the memorandum must separately examine:
+
+- **Circulating market cap:** current price multiplied by independently checked circulating supply.
+- **FDV:** current price multiplied by total or maximum supply, with the exact denominator stated.
+- **Unlocks and emissions:** scheduled vesting, treasury distributions, foundation allocations and future issuance.
+- **Effective float:** tokens plausibly available to trade, distinguishing exchange balances, long-term holdings, locked tokens and strategic reserves where verifiable.
+- **Liquidity:** spot volume quality, order-book depth, venue concentration, spreads and slippage for the proposed position size.
+- **Holder concentration:** top-wallet concentration after identifying contracts, exchanges, custodians, bridges and treasury wallets.
+- **Valuation comparables:** market caps of genuinely comparable networks, adjusted for product maturity, adoption, revenue/fees and token economics.
+- **Scenario math:** implied token prices at several market-cap levels, plus dilution and float sensitivity.
+
+A smaller market cap can make a given percentage re-rating arithmetically possible with a lower valuation base. It does not guarantee that a modest amount of buying will produce a durable re-rating: thin liquidity can magnify both upward and downward moves, while unlocks and concentrated ownership can overwhelm demand.
+
+### Formula used
+
+`Implied token price = target market capitalisation ÷ assumed circulating supply`
+
+`Market capitalisation = token price × circulating supply`
+
+All scenario tables must state the supply denominator and snapshot date. Never compare two tokens' unit prices without comparing their market capitalisations and supplies.
+
+## 14. Updated committee conclusion
+
+QNT's small maximum supply is a notable feature, but the asset already carries a multi-billion-dollar market valuation. The upside case must therefore be built on measurable institutional adoption and credible token value capture, not on the phrase "low supply" alone. Our next diligence priority is to reconcile supply data against the token contract, verified mint/burn history and reliable wallet classification, then monitor whether Quant's institutional deployments generate recurring QNT demand.
+
+### Valuation data sources
+
+- [CoinGecko — Quant live market data](https://www.coingecko.com/en/coins/quant) (price, market cap, FDV and supply snapshot, 20 November 2026).
+- [CoinMarketCap — Quant market data](https://coinmarketcap.com/currencies/quant/) (independent aggregator; circulating-supply discrepancy noted).
+- [CoinDesk — Quant market data and supply explanation](https://www.coindesk.com/price/quant) (independent market snapshot and explanation of the contract's theoretical supply constant).
+- [VertData — QNT supply dashboard](https://vertdata.com/qnt-supply) (secondary on-chain supply/holder analysis; useful for reconciliation, not treated as an issuer statement).
+- [Etherscan — QNT token contract](https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675) (primary on-chain contract reference).
