@@ -244,3 +244,81 @@ QNT's small maximum supply is a notable feature, but the asset already carries a
 - [CoinDesk — Quant market data and supply explanation](https://www.coindesk.com/price/quant) (independent market snapshot and explanation of the contract's theoretical supply constant).
 - [VertData — QNT supply dashboard](https://vertdata.com/qnt-supply) (secondary on-chain supply/holder analysis; useful for reconciliation, not treated as an issuer statement).
 - [Etherscan — QNT token contract](https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675) (primary on-chain contract reference).
+
+
+---
+
+## 15. Supply reconciliation and revised valuation work — 20 November 2026
+
+### Supply conclusion
+
+For valuation work, use the **14,612,493.08 QNT fixed total supply** as the working maximum supply, not a rounded 27 million figure and not the 45.467 million theoretical constant sometimes displayed by the token contract interface.
+
+Blockworks' Quant token-transparency filing records the September 2018 burn of **9,545,765.95 QNT**, leaving 14,612,493.08 QNT total supply. It cites Etherscan circulating supply of **14,544,176 QNT** in its July 2026 filing. The difference between total and circulating supply is therefore approximately **68,317 QNT**, or about **0.47%** of total supply, on that dated record. The filing says the residual company-held balance is unlocked; treat that as a potential supply overhang, not as proof that it will be sold.
+
+CoinGecko's 20 November 2026 snapshot reports 14.556 million circulating and 14.612 million total. The difference between CoinGecko and the dated Etherscan/Blockworks circulating figure is small in percentage terms, but the committee should preserve the exact source and date rather than imply false precision. CoinMarketCap's displayed 12.07 million circulating figure is materially inconsistent and should not be used as the base case until reconciled.
+
+**Working valuation denominator for this analysis: 14,544,176 circulating QNT.**  
+**Working maximum supply: 14,612,493 QNT.**  
+**Supply regime: fixed; no ongoing protocol emissions identified in the cited disclosure.**  
+**Supply caveat: wallet classification and circulating-supply methodology remain data-quality variables.**
+
+The 45.467 million figure shown in some contract interfaces is described in the Blockworks filing as a pre-burn theoretical contract constant, not the actual post-burn supply. It must not be substituted for the post-burn token supply in market-cap calculations.
+
+### Revised valuation sensitivity
+
+Using the 14,544,176 circulating denominator and the CoinGecko spot snapshot of $145.21:
+
+| Target market capitalisation | Implied QNT price | Change versus $145.21 |
+|---:|---:|---:|
+| $1bn | $68.76 | -52.7% |
+| $2.5bn | $171.89 | +18.4% |
+| $5bn | $343.78 | +136.7% |
+| $10bn | $687.56 | +373.5% |
+| $15bn | $1,031.34 | +610.2% |
+| $20bn | $1,375.12 | +847.0% |
+
+These are market-cap scenarios, not price forecasts or probability-weighted targets. They assume unchanged circulating supply and ignore fees, taxes and execution slippage. The price return column is simple arithmetic from the $145.21 snapshot, not a total-return estimate.
+
+### What the low supply does — and does not — tell us
+
+The low fixed supply creates high unit-price sensitivity to changes in the market value assigned to the network. At roughly 14.54 million circulating tokens, each additional $1 billion of market capitalisation corresponds to approximately **$68.76 per QNT**. That is the arithmetic consequence of the denominator.
+
+It does **not** mean that $1 billion of new cash must enter for market capitalisation to rise by $1 billion. Market cap is the marginal traded price multiplied by supply. Nor does low supply by itself establish undervaluation: the market must still justify the total valuation through adoption, token utility, liquidity and investor demand.
+
+### Token demand: the central underwriting issue
+
+The token has several documented roles, but they must be separated carefully:
+
+- Quant's published licence announcement introduced a £100 annual Overledger production licence payable in QNT.
+- Quant's current FAQ says platform subscriptions can be paid in USD or by subscribing with QNT. This is important: enterprise software adoption does not automatically force every customer to buy QNT on the open market.
+- Quant's terms define QNT as a utility token usable for Quant products and services, including staking. The terms also state that customers may pay platform fees in fiat or QNT depending on the order arrangement.
+- Quant's Fusion materials describe QNT as the network's native token and staking mechanism for trusted nodes. These are company descriptions; the committee must verify live network rules, minimum stake, reward source, fee denomination and actual on-chain activity before assigning material value to them.
+
+The investment case therefore depends on whether production usage creates recurring, unavoidable or economically meaningful QNT demand, lock-up or staking. A token that can be bypassed for most customer payments may capture less value than the underlying software company.
+
+### Diligence priorities now open
+
+1. Reconcile total supply and circulating supply against the verified ERC-20 contract, burn transaction and current holder/wallet classification.
+2. Identify company, founder, advisor, exchange, custody, bridge and smart-contract wallets before interpreting top-holder concentration.
+3. Quantify the amount of QNT held on centralised exchanges and the trend over time, while avoiding the assumption that exchange balances equal available sell-side float.
+4. Verify Fusion's live token mechanics: QNT gas denomination, fee routing, staking thresholds, rewards, slashing (if any), node count and active stake.
+5. Establish whether customer fees paid in fiat are converted into QNT, retained as fiat, or otherwise create no open-market token demand.
+6. Track The Clearing House initiative from selection to pilot, production availability, named participating institutions, transaction volumes and actual Quant/QNT economics.
+7. Compare QNT's valuation against infrastructure peers using adoption and token value capture, not unit price or token scarcity alone.
+
+### Updated committee assessment
+
+The fixed supply is a genuine positive structural characteristic. It makes the token's unit price highly sensitive to changes in market capitalisation, and there is little conventional dilution from new issuance on the cited supply record. However, QNT is already a roughly $2.1 billion asset at the current snapshot. The key question is not whether a scarce token can print a high unit price; it is whether Quant can establish a sufficiently large, defensible economic role and whether that role creates durable demand for QNT itself.
+
+**Current research stance: positive watch / valuation diligence in progress. No final entry decision until token value capture, liquidity, wallet concentration and institutional production evidence are independently reconciled.**
+
+### Additional source references
+
+- [Blockworks — Quant Token Transparency Filing, filed 28 July 2026](https://blockworks.com/token-transparency/filing/quant): post-burn total supply, circulating supply, allocations and token-function summary.
+- [Blockworks — Quant Network disclosures](https://app.blockworks.com/projects/quant-network-2/disclosures): token utility, payment alternatives and operating/control structure.
+- [Quant — Introduction of Overledger licence fee](https://quant.network/news/introduction-of-overledger-licence-fee/): historical £100 annual production licence payable in QNT.
+- [Quant — Frequently asked questions](https://quant.network/frequently-asked-questions/): platform subscription payment options, including USD or QNT.
+- [Quant — Terms and conditions](https://quant.network/terms-and-conditions/): contractual definition and permitted uses of QNT, fees and staking.
+- [Quant — Fusion Rollup mainnet announcement](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/): company description of Fusion's architecture and 74 initially connected networks.
+- [CoinGecko — QNT market data](https://www.coingecko.com/en/coins/quant): 20 November 2026 price and market snapshot.
