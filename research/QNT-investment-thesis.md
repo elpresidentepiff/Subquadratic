@@ -449,3 +449,101 @@ Reduce or reject the thesis if:
 - [Etherscan — QNT ERC-20 token contract](https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675): primary on-chain contract and holder/transfer reference.
 
 *Evidence boundary: this phase has reviewed public disclosures and market snapshots. It has not yet independently downloaded and decoded the full ERC-20 event history, classified all major holder wallets, queried live order books, or verified Fusion contracts and fee flows. Those tasks remain open and are not represented as completed.*
+
+
+---
+
+## 17. The emerging financial system — where Quant could sit
+
+**Research update: 20 November 2026**
+
+### The structural transition
+
+The likely future is not one global blockchain replacing the banking system. It is a layered, interoperable financial architecture in which regulated money and financial assets exist in several forms and on several networks:
+
+1. **Money layer:** commercial-bank deposits, tokenised deposits, regulated payment stablecoins and, potentially, central-bank digital money.
+2. **Asset layer:** tokenised government securities, funds, bonds, private-market assets and other financial instruments.
+3. **Ledger layer:** public blockchains, permissioned bank ledgers, market-infrastructure networks and proprietary institutional systems.
+4. **Connectivity and orchestration layer:** identity, permissions, compliance, messaging, transaction coordination, liquidity routing and cross-ledger settlement.
+5. **Legacy access and settlement layer:** existing bank accounts, payment systems, clearing houses, custody, central securities depositories and legal/regulatory frameworks.
+
+The opportunity is created by fragmentation. A tokenised deposit on one bank's permissioned ledger does not automatically become interoperable with a stablecoin on a public chain or a tokenised bond on a separate market network. Institutions need to coordinate assets and obligations without losing control, compliance or the legal status of the underlying money.
+
+This is the infrastructure problem Quant is targeting. Overledger is positioned as connectivity and orchestration; Fusion is positioned as a multi-ledger execution environment. Quant's own mainnet announcement describes Fusion as connecting 74 networks and representing assets from multiple chains in a unified execution environment. That is a company-reported product capability, not yet independently measured production throughput or economic adoption.
+
+### Swift: incumbent adapting, not standing still
+
+It is strategically inaccurate to underwrite QNT on the assumption that Swift is obsolete or will simply disappear. Swift has an enormous installed base, institutional trust, standards influence and bank connectivity. It is actively extending its infrastructure into tokenised finance.
+
+The evidence is now stronger than a proof of concept:
+- On 9 July 2026, Swift said its blockchain-based ledger was ready for initial use and that 17 banks across six continents were preparing tokenised-deposit pilots.
+- On 19 August 2026, Standard Chartered and HSBC announced the first live cross-border tokenised-deposit transaction on Swift's ledger. The ledger coordinated and matched tokenised deposit obligations; final settlement still used existing systems.
+- Swift's own description positions the ledger as an extension of its trusted global platform, not as a wholesale replacement of existing banking infrastructure.
+
+This is both market validation and competitive evidence. Swift is proving that it can adapt, mobilise banks and coordinate tokenised deposits. Its distribution advantage is formidable.
+
+### Quant's potential position is different — and potentially complementary
+
+The Clearing House selection is important because it gives Quant a defined role in a separate US bank-led initiative. The Clearing House said Quant would provide the interoperability, orchestration and transaction-management layer for tokenised-deposit clearing and settlement, with connectivity to RTP and CHIPS. The initiative is expected to become available to participating institutions in H1 2027.
+
+The distinction matters:
+- Swift is building a shared ledger and orchestration capability within its global banking network.
+- The Clearing House initiative is designed around US bank-to-bank tokenised-deposit clearing and settlement, connected to RTP and CHIPS.
+- Quant's role is the technology layer selected by The Clearing House for that initiative.
+- Fusion's broader proposition is cross-ledger execution across public and permissioned networks.
+
+These are overlapping markets, but not necessarily identical products or mutually exclusive systems. The future could involve competition, integration, coexistence or consolidation. A bank may use Swift for global messaging and network access, a domestic clearing infrastructure for local settlement, and a specialist interoperability/execution layer to connect tokenised assets and ledgers. The exact architecture will be determined by institutions, regulators, market infrastructures and technical performance.
+
+**Investment interpretation:** Quant does not need to destroy Swift to win. It needs to become a valuable and difficult-to-replace infrastructure provider within a multi-network financial system. However, Swift's own ledger means Quant must demonstrate a differentiated use case, not merely claim that interoperability is needed.
+
+### Why the Clearing House selection is a high-value proof point
+
+The Clearing House says its payment networks clear and settle more than $2 trillion each day. Its selection of Quant is therefore more significant than an ordinary technology partnership announcement. It puts Quant in the architecture of a serious bank-led programme connected to established payment rails.
+
+The evidence boundary remains essential:
+- Confirmed: The Clearing House publicly announced Quant's selection and described Quant's intended technical role.
+- Confirmed: The initiative is designed for tokenised-deposit clearing and settlement and integration with RTP and CHIPS.
+- Confirmed: availability to participating institutions is expected in H1 2027.
+- Not yet confirmed: production launch, number of live participating banks, transaction volume, recurring Quant revenue, contract value, or QNT purchases/staking arising from the deployment.
+
+The next milestone is not another announcement. It is proof that the network launches, banks participate, real transactions settle and Quant's role generates durable commercial value.
+
+### Strategic scenarios
+
+| Scenario | What happens | Implication for Quant |
+|---|---|---|
+| Multi-network coexistence | Swift, domestic payment networks, bank ledgers and public chains remain; interoperability becomes more important | Attractive opportunity if Quant wins cross-system workflows |
+| Incumbent-led consolidation | Swift and major market infrastructures extend their own ledgers and integration stacks | Quant must prove unique capability or become a supplier/partner to incumbents |
+| Specialist infrastructure wins | Banks use several specialist providers for tokenisation, compliance, orchestration and settlement | Quant can win a valuable layer, but must defend margins and integrations |
+| Fragmented adoption | Pilots proliferate but production remains slow, local and low-volume | Company opportunity and QNT demand may disappoint despite a strong narrative |
+
+### What would establish a durable Quant moat?
+
+We should look for evidence of:
+- Production integrations that are costly or operationally risky to replace.
+- Repeat business across multiple institutions and jurisdictions.
+- A growing catalogue of live workflows, not just network connections.
+- Demonstrable security, resilience, compliance and operational performance.
+- Transaction volume and value settled across independent ledgers.
+- Contracted recurring revenue and customer retention.
+- QNT-denominated fees, staking requirements or other verifiable token demand.
+
+Patents, standards participation, network count and senior institutional relationships are supporting evidence. They are not substitutes for customer dependence, production economics or token value capture.
+
+### Revised investment judgement
+
+The macro thesis is compelling: financial assets and money are becoming programmable, while the underlying infrastructure remains fragmented. That creates a need for connectivity and orchestration across regulated and open networks.
+
+Quant is positioned directly in that problem and has a meaningful institutional proof point in The Clearing House selection. Fusion's multi-ledger design could broaden the opportunity beyond a single payments corridor or blockchain ecosystem.
+
+But the investment thesis must not rely on the claim that Swift is old and therefore doomed. Swift is actively modernising and has already demonstrated a live tokenised-deposit transaction with major banks. Quant's opportunity is to be a differentiated connective layer in a system where incumbents and specialists may coexist.
+
+**Committee stance:** positive on the structural market and increasingly constructive on Quant's strategic positioning. Maintain a separate, evidence-led hurdle for QNT: prove that the company's institutional success translates into persistent token demand, meaningful staking/lock-up or fee consumption. Do not confuse a large addressable market with automatic token appreciation.
+
+### Sources added for this section
+
+- [The Clearing House — Quant selected for the On-Chain Money Initiative, 24 September 2026](https://www.theclearinghouse.org/payment-systems/Articles/2026/09/The-Clearing-House-Partners-with-Quant-to-Advance-the--On-Chain-Money-Initiative): primary confirmation of Quant's selected role, RTP/CHIPS connectivity and H1 2027 expected availability.
+- [Swift — Blockchain ledger ready for use; 17 banks preparing pilots, 9 July 2026](https://www.swift.com/about-us/media-centre/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure): primary source for Swift's own ledger initiative and participating-bank pilot preparation.
+- [Standard Chartered — First live tokenised-deposit transaction on Swift's ledger with HSBC, 19 August 2026](https://www.sc.com/En/press-release/standard-chartered-and-hsbc-execute-first-live-tokenised-deposit-transaction-on-swifts-blockchain-based-ledger/): primary bank announcement of a live interbank transaction and the ledger's orchestration role.
+- [Quant — Fusion Rollup mainnet announcement](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/): company description of Fusion's multi-ledger architecture and initial network connectivity.
+- [The Clearing House — Tokenized Deposits: Connecting Banks for the Future of Digital Payments, 24 August 2026](https://www.theclearinghouse.org/payment-systems/Articles/2026/08/Components/Tokenized-Deposits-Connecting-Banks-for-the-Future-of-Digital-Payments): primary explanation of the bank-led initiative and its intended connection to existing payment rails.
