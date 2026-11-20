@@ -55,3 +55,9 @@ Open work before an entry decision:
 6. Build a valuation comparison against relevant institutional interoperability and tokenisation infrastructure assets.
 
 **Research posture:** positive thesis under diligence; no final entry or position-size decision has been made.
+
+### QNT Phase II — token mechanics and market structure
+
+Completed public-disclosure review covering fixed supply, circulating-supply reconciliation, fiat-vs-QNT subscription payment choice, Fusion product claims, token value-capture gaps, current market-cap/FDV/volume snapshot, scenario sensitivity and falsification criteria. See Sections 15–16 of the QNT memorandum.
+
+**Not yet independently completed:** full ERC-20 event-history extraction, major-wallet labelling, live exchange order-book depth/slippage analysis, and direct verification of Fusion gas/staking contract mechanics. These remain explicit diligence tasks, not assumed facts.
