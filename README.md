@@ -70,3 +70,16 @@ Added a strategic analysis of the emerging tokenised financial system: tokenised
 **Key conclusion:** Swift is modernising and cannot be treated as a dying incumbent. Quant's opportunity is to become a differentiated connective/execution layer in a multi-network financial system, potentially alongside established payment rails. The Clearing House selection is a significant institutional proof point, but production deployment, volumes, commercial economics and QNT value capture remain to be proven.
 
 See Section 17 of the QNT memorandum. Next diligence remains direct on-chain holder/event analysis, Fusion fee and staking verification, and market-depth measurement.
+
+
+### QNT Phase IV — preliminary on-chain supply and holder audit
+
+Added a dated public-explorer review of the QNT contract balance, hardcoded `totalSupply()` constant, historical mint-event reconstruction, top-holder concentration and verified exchange-labelled holdings.
+
+Preliminary findings:
+- Approximately 9.55m QNT sits at the token contract address; an independent source-code review finds no apparent path to transfer it out. This is consistent with the 2018 burn, subject to a specialist audit.
+- The third-party mint-event reconstruction produces approximately 14.88m tokens outside the contract address, around 267.9k above the 14.612493m reported supply. This discrepancy remains unresolved.
+- Top ten non-contract wallets represent approximately 24.5% of reported supply; the top three represent approximately 11.3%. Unlabelled addresses are not assumed to be insiders or independent beneficial owners.
+- Verified exchange-labelled addresses in the top 50 represent at least 1.4266m QNT (9.76% of reported supply), a lower bound rather than a total exchange-float estimate.
+
+See Section 18 of the QNT memorandum. Full wallet attribution, independent event-log replay, exchange-reserve time series and executable order-book depth remain open.
