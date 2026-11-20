@@ -6,7 +6,7 @@ Institutional-style digital-asset and financial-infrastructure research.
 
 | Asset | Status | Research |
 |---|---|---|
-| QNT — Quant Network | Initial memorandum completed | [QNT Investment Thesis](research/QNT-investment-thesis.md) |
+| QNT — Quant Network | Thesis + market-cap valuation completed | [QNT Investment Thesis](research/QNT-investment-thesis.md) |
 | XRP — XRP Ledger / Ripple ecosystem | Next research note | Pending |
 | HBAR — Hedera | Watchlist | Pending |
 | LINK — Chainlink | Watchlist | Pending |
@@ -27,3 +27,16 @@ Every asset memorandum should:
 ## Editorial position
 
 Research is written from an investment-underwriting perspective. The objective is to build a clear, evidence-led case for why an asset merits capital allocation. Promotional claims are not treated as proof; token value capture must be demonstrated independently of company success.
+
+
+## Valuation standard
+
+Every asset note includes dated market data and an explicit valuation model:
+- Spot price, circulating supply, total/max supply, market cap and FDV.
+- Supply reconciliation and unlock/dilution schedule.
+- Effective float, holder concentration, venue liquidity and order-book depth.
+- Comparable-network valuation and market-cap-to-token-price sensitivity tables.
+- Scenario assumptions clearly stated; market cap is not treated as cash inflow.
+- For lower-cap assets, additional scrutiny of float, liquidity, concentration and unlocks is mandatory.
+
+QNT's 20 November 2026 market snapshot and valuation sensitivity are documented in its memorandum. The circulating-supply figures reported by major aggregators differ; this discrepancy is explicitly flagged for reconciliation rather than concealed.
