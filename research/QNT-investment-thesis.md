@@ -322,3 +322,130 @@ The fixed supply is a genuine positive structural characteristic. It makes the t
 - [Quant — Terms and conditions](https://quant.network/terms-and-conditions/): contractual definition and permitted uses of QNT, fees and staking.
 - [Quant — Fusion Rollup mainnet announcement](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/): company description of Fusion's architecture and 74 initially connected networks.
 - [CoinGecko — QNT market data](https://www.coingecko.com/en/coins/quant): 20 November 2026 price and market snapshot.
+
+
+---
+
+## 16. Phase II — token mechanics, demand quality and market structure
+**Research update:** 20 November 2026
+
+### A. Supply: current working view
+
+The strongest supply evidence currently available is the Quant token-transparency filing hosted by Blockworks, which cites the post-burn supply record and Etherscan circulating supply:
+
+- Total supply: **14,612,493 QNT**.
+- Circulating supply: **14,544,176 QNT** (dated filing figure).
+- Difference: approximately **68,317 QNT**, or **0.47%** of total supply.
+- Supply regime: fixed; the filing says no additional QNT has been created after the token generation event.
+- The 45,467,000 number shown by Etherscan as a contract maximum is a hard-coded theoretical pre-burn figure, not the post-burn number of tokens actually created.
+
+The 68,317 QNT residual is described as company-held and unlocked in the filing. It is small relative to total supply but should remain on the watchlist as a potential source of sell-side supply. Wallet balances and classifications can change; refresh the data before any transaction.
+
+**Source hierarchy:** issuer's original burn explanation and verified on-chain transfer/burn records should take precedence over aggregator supply estimates. The Blockworks filing is a useful consolidated disclosure, but it is not itself the blockchain.
+
+### B. Demand quality: what the customer actually has to do
+
+Quant's FAQ currently says a customer can pay its Overledger platform fee in USD or subscribe with QNT. This is decisive for underwriting: an Overledger customer is not necessarily forced to purchase QNT in the open market.
+
+Quant's historic Overledger licence announcement described a £100 annual production licence payable in QNT. That is evidence of a QNT-denominated access mechanism, but the current FAQ shows that payment choice exists. The old £100 licence should not be extrapolated into current enterprise pricing or aggregate token demand without customer counts and contract terms.
+
+**Committee implication:** the licence mechanism is real utility, but its direct demand impact cannot yet be quantified. It is not sufficient, by itself, to justify a multi-billion-dollar token valuation.
+
+### C. Fusion Rollup: potential step-change, still requires measurement
+
+Quant's mainnet announcement says Fusion launched connected to 74 blockchain networks, with further networks available through its Trusted Node Program. Quant describes Fusion as a multi-ledger execution environment for cross-network asset movements, settlement and messaging.
+
+The company announcement is meaningful evidence that a product has launched. It is not independent evidence of:
+- production transaction volume or value settled;
+- the number of active institutional customers;
+- the amount of QNT held or staked by node operators;
+- the amount of QNT consumed as gas or fees;
+- fee routing, burning or distribution;
+- recurring open-market purchases caused by usage.
+
+These items require current technical documentation, on-chain contract/event analysis and customer deployment evidence. Until those data are collected, do not assign a quantified token-demand premium to the 74-network headline.
+
+### D. Token value capture: provisional scorecard
+
+| Mechanism | What is evidenced | What remains unproven for valuation |
+|---|---|---|
+| Overledger access/licensing | QNT payment option; historical QNT licence mechanism | Current QNT-paid customer share, volumes, purchase/lock-up behaviour |
+| Fiat subscription | Quant FAQ explicitly permits USD payment | Whether fiat revenue is converted into QNT or creates any secondary demand |
+| Fusion execution/gas | Quant positions Fusion as a multi-ledger execution environment | Exact live fee denomination, fee levels, payment routing and QNT consumption |
+| Trusted-node staking | Quant describes a Trusted Node Program and staking framework | Current active stake, minimums, lock duration, rewards, slashing and decentralisation |
+| Supply constraint | Fixed total supply in issuer disclosure; ~14.54m circulating | Current beneficial ownership, exchange float and genuine sellable float |
+| Governance/equity rights | QNT is a utility token, not company equity | No equity claim or token-holder governance right should be priced in |
+
+**Provisional conclusion:** QNT has defined utility and a credible route to additional utility through Fusion, but public evidence reviewed in this phase does not yet quantify the conversion of product adoption into persistent net token demand. That is the most important unresolved part of the investment case.
+
+### E. Market structure snapshot
+
+CoinGecko's current page reports approximately:
+- Market capitalisation: **$2.114bn**.
+- Fully diluted valuation: **$2.122bn**.
+- Circulating supply: **14.556m QNT**.
+- Total/max supply: **14.612m QNT**.
+- 24-hour trading volume: approximately **$55.7m**.
+- Perpetual futures open interest: approximately **$61.9m**.
+
+These are aggregator snapshots and can change intraday. The near-equality of market cap and FDV is consistent with the fixed-supply thesis, but volume and derivatives open interest are not substitutes for executable spot depth. Futures turnover can amplify volatility without representing durable spot accumulation.
+
+**Liquidity work still required:** collect order-book depth at 1%, 2% and 5% from major spot venues; calculate bid/ask spreads and slippage for realistic order sizes; identify venue concentration; compare spot volume with derivatives volume; and test liquidity during stressed market conditions. Do not infer that $55m daily reported volume means a large order can be executed at the displayed price.
+
+### F. Valuation scenarios — updated working denominator
+
+Use **14,544,176 circulating QNT** as the dated working denominator for this table. This differs slightly from CoinGecko's rounded 14.556m live figure. The difference is disclosed rather than hidden.
+
+| Market-cap scenario | Implied price per QNT | Multiple vs $145.21 |
+|---:|---:|---:|
+| $1bn | $68.76 | 0.47x |
+| $2.5bn | $171.89 | 1.18x |
+| $5bn | $343.78 | 2.37x |
+| $7.5bn | $515.67 | 3.55x |
+| $10bn | $687.56 | 4.73x |
+| $15bn | $1,031.34 | 7.10x |
+| $20bn | $1,375.12 | 9.47x |
+
+The multiples are arithmetic only and assume a fixed circulating denominator. They are not assigned probabilities or price targets. A future valuation must be justified against the size and economics of the addressable infrastructure market, comparable networks, actual customer deployments, token demand and market liquidity.
+
+### G. What would make the present valuation attractive?
+
+The current market capitalisation is already approximately $2.1bn. A positive entry thesis requires evidence that one or more of the following can become durable:
+
+1. The Clearing House initiative reaches production and Quant's role is material, repeatable and economically valuable.
+2. Additional banks, payment networks, asset managers or market infrastructures deploy Quant in live workflows.
+3. Fusion creates measurable QNT-denominated gas or execution demand, not just software usage.
+4. Trusted-node staking locks a meaningful proportion of circulating QNT for sustained periods, with transparent reward economics.
+5. Enterprise subscription choices and contract structures create recurring QNT acquisition or lock-up rather than allowing fiat payment to bypass token demand entirely.
+6. Exchange float tightens while demand rises, verified through wallet-level data rather than assumed from low total supply.
+
+### H. Falsification and red flags
+
+Reduce or reject the thesis if:
+- Fusion activity remains low or cannot be independently measured.
+- The token can be bypassed for most meaningful customer usage and no compensating demand mechanism exists.
+- The Clearing House announcement does not progress to operational deployment or Quant's role proves peripheral.
+- Competing systems win institutional deployments through stronger distribution, lower integration costs or better regulatory acceptance.
+- Wallet concentration, insider balances or market depth make the apparent scarcity misleading.
+- The market price already discounts adoption and token utility that have not materialised.
+
+### I. Next data collection queue
+
+| Priority | Dataset / evidence | Required output |
+|---|---|---|
+| 1 | QNT ERC-20 transfer, burn and holder events | Reconciled supply ledger; top holders with contract/exchange/treasury labels |
+| 2 | Exchange wallet balances and spot books | Tradable-float estimate; venue concentration; 1/2/5% depth and slippage |
+| 3 | Fusion technical docs and deployed contracts | Gas token, fee path, staking contract, node rules, reward and lock-up mechanics |
+| 4 | Fusion on-chain events | Active nodes, staked QNT, fees, transaction counts and value settled |
+| 5 | Quant customer disclosures | Named production customers, contract economics and usage evidence |
+| 6 | The Clearing House programme | Pilot/production milestones, participant names and Quant's precise scope |
+
+### Phase II source register
+
+- [Blockworks — Quant token transparency filing](https://blockworks.com/token-transparency/filing/quant): consolidated issuer disclosures and cited on-chain supply data.
+- [Quant — Frequently asked questions](https://quant.network/frequently-asked-questions/): current USD or QNT subscription payment choice.
+- [Quant — Fusion Rollup mainnet announcement](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/): company statement on mainnet launch, architecture and initial network connections.
+- [CoinGecko — QNT market data](https://www.coingecko.com/en/coins/quant): market cap, FDV, supply, volume and derivatives snapshot.
+- [Etherscan — QNT ERC-20 token contract](https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675): primary on-chain contract and holder/transfer reference.
+
+*Evidence boundary: this phase has reviewed public disclosures and market snapshots. It has not yet independently downloaded and decoded the full ERC-20 event history, classified all major holder wallets, queried live order books, or verified Fusion contracts and fee flows. Those tasks remain open and are not represented as completed.*
