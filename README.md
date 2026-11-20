@@ -40,3 +40,18 @@ Every asset note includes dated market data and an explicit valuation model:
 - For lower-cap assets, additional scrutiny of float, liquidity, concentration and unlocks is mandatory.
 
 QNT's 20 November 2026 market snapshot and valuation sensitivity are documented in its memorandum. The circulating-supply figures reported by major aggregators differ; this discrepancy is explicitly flagged for reconciliation rather than concealed.
+
+
+## Current active work — QNT (20 November 2026)
+
+QNT has moved from an initial thesis into active supply and token-value-capture diligence. The research note now uses a reconciled working supply denominator of 14,544,176 circulating QNT and 14,612,493 total QNT, based on the dated Blockworks/Etherscan disclosure, while retaining the CoinGecko live snapshot and explicitly recording aggregator disagreement.
+
+Open work before an entry decision:
+1. Verify supply and wallet classifications directly against the ERC-20 contract and burn history.
+2. Quantify exchange float, holder concentration and liquidity depth.
+3. Establish exactly how Fusion usage creates QNT-denominated gas demand, staking lock-up and rewards.
+4. Determine whether fiat-paid enterprise subscriptions create any open-market QNT demand.
+5. Progress The Clearing House selection through pilot and production evidence.
+6. Build a valuation comparison against relevant institutional interoperability and tokenisation infrastructure assets.
+
+**Research posture:** positive thesis under diligence; no final entry or position-size decision has been made.
